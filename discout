@@ -1,0 +1,27 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+	    float a=sc.nextFloat();
+	    float b=sc.nextFloat();
+	    float c=sc.nextFloat();
+	    float d=a+b;
+	    float e=(d*c)/100;
+	    float f=d-e;
+	     System.out.println(d);
+	     System.out.println(f);
+	    
+	    System.out.println(e);
+		
+		}
+}
+o/p
+input
+20.50
+45.40
+10
+output
+65.9
+59.31
+6.59
