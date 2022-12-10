@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+       int x=sc.nextInt();
+       int y=sc.nextInt();
+       int sell =x/12;
+       int loss=(sell-y)*12;
+       if(y<sell)
+       {
+           System.out.println(" loss: "+loss);
+       }
+    }
+}
+o/p
+input 
+60
+4
+Output
+Loss: 12
