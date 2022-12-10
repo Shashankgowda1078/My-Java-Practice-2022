@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main
+{
+  public static void main (String[]args)
+  {
+
+    Scanner sc =new Scanner(System.in);
+    int w=sc.nextInt();
+    int x=sc.nextInt();
+    int y=sc.nextInt();
+    int a=w*x;
+    int b=w*y-100;
+    System.out.println(a);
+    System.out.println(b);
+    
+
+  }
+}
+o/p
+input
+1000
+2
+1
+Output
+2000
+900
