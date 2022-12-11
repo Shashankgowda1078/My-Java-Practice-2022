@@ -1,0 +1,46 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Mech_b mb=new Mech_b();
+        mb.fan1();//fan 1 is on
+        mb.ac1();//ac-1 is on
+        mb.fan2();//fan-2 is on
+        mb.ac2();//ac-2 is on
+        mb.fan3();//fan-3 is on
+        mb.ac3();//ac-3 is on
+    }
+}
+class Mech_a
+{
+    public static void fan1()
+    {
+        System.out.println("Fan 1 is on");
+    }
+    public static void ac1()
+    {
+        System.out.println("AC 1 is on");
+    }
+}//parent class
+class Mech_b extends Mech_a
+{
+     public static void fan2()
+    {
+        System.out.println("Fan 2 is on");
+    }
+    public static void ac2()
+    {
+        System.out.println("AC 2 is on");
+    }
+}class Mech_c extends Mech_b
+{
+     public static void fan3()
+    {
+        System.out.println("Fan 3 is on");
+    }
+    public static void ac3()
+    {
+        System.out.println("AC 3 is on");
+    }
+}
+
