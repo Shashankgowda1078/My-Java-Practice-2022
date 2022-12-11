@@ -1,0 +1,29 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        
+        Sum sm=new Sum();
+        sm.Addition(a,b,c);
+    }
+}
+class Sum
+{
+    public static void Addition(int a,int b,int c)
+    {
+       int sum;
+       sum=a+b+c;
+        System.out.println(" sum " +sum);
+    }
+}
+o/p
+input
+7
+1
+9
+Output
+17
