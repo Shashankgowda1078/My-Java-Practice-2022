@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+       float item=sc.nextFloat();
+       float heattime=sc.nextFloat();
+       float totalheattime=((heattime/2))+heattime;
+       System.out.println(totalheattime);
+    }
+}
+o/p
+input
+2
+5
+Output
+7.5
