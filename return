@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	addition ab=new addition();
+	System.out.println(ab.add(10,20));
+	System.out.println(ab.add(10,20,30));
+	
+	}
+}
+class addition
+{
+    public static int add(int a,int b) { return a+b;}
+    public static int add(int a,int b,int c) { return a+b+c; }
+}
+Output
+30
+60
