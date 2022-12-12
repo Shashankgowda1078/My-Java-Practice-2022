@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+      HashMap <Integer,String>hm=new HashMap<Integer,String>();
+      hm.put(1,"one");
+      hm.put(2,"two");
+      hm.put(3,"three");
+      hm.put(4,"four");
+    
+      System.out.println("Iterating Hashmap..");
+     for(Map.Entry m: hm.entrySet()){
+         System.out.println(m.getKey()+" "+m.getValue());
+     }
+    }
+}
+Output
+Iterating Hashmap..
+1 one
+2 two
+3 three
+4 four
+
